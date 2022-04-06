@@ -69,8 +69,8 @@ namespace AirlineTuto
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Splash splash = new Splash();
-            splash.Show();
+            Home home = new Home();
+            home.Show();
             this.Hide();
         }
 
@@ -79,6 +79,11 @@ namespace AirlineTuto
             ViewFlight viewFlight = new ViewFlight();
             viewFlight.Show();
             this.Hide();
+        }
+
+        private void FlightTbl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

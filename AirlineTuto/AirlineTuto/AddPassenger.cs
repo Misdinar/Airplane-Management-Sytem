@@ -74,8 +74,8 @@ namespace AirlineTuto
         //untuk kembali ke halaman utama
         private void button3_Click(object sender, EventArgs e)
         {
-            Splash splash = new Splash();
-            splash.Show();
+            Home home = new Home();
+            home.Show();
             this.Hide();
         }
 
@@ -84,6 +84,11 @@ namespace AirlineTuto
             ViewPassenger viewpass = new ViewPassenger();
             viewpass.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -21,5 +21,29 @@ namespace AirlineTuto
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UidTb.Text = "";
+            PassTb.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(UidTb.Text == "" || PassTb.Text == "")
+            {
+                MessageBox.Show("Enter The User Id and Password");
+            }
+            else if(UidTb.Test == "Admin" && PassTb.Text == "Admin")
+            {
+                Home home = new Home();
+                home.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Wrong User Name or Password");
+            }
+        }
     }
 }
