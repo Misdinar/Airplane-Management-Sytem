@@ -19,3 +19,4 @@ D:\SMT6\PBKK\VS22\Airplane-Management-Sytem\AirlineTuto\AirlineTuto\obj\Debug\Ai
 D:\SMT6\PBKK\VS22\Airplane-Management-Sytem\AirlineTuto\AirlineTuto\obj\Debug\AirlineTuto.csproj.CopyComplete
 D:\SMT6\PBKK\VS22\Airplane-Management-Sytem\AirlineTuto\AirlineTuto\obj\Debug\AirlineTuto.exe
 D:\SMT6\PBKK\VS22\Airplane-Management-Sytem\AirlineTuto\AirlineTuto\obj\Debug\AirlineTuto.pdb
+D:\SMT6\PBKK\VS22\Airplane-Management-Sytem\AirlineTuto\AirlineTuto\obj\Debug\AirlineTuto.Home.resources

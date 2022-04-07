@@ -41,8 +41,8 @@ namespace AirlineTuto
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Splash splash = new Splash();
-            splash.Show();
+            FlightTbl flightTbl = new FlightTbl();
+            flightTbl.Show();
             this.Hide();
         }
 

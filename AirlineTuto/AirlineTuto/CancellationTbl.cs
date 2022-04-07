@@ -34,7 +34,7 @@ namespace AirlineTuto
         private void fetchfcode()
         {
             Con.Open();
-            string query = "select * from TicketTbl where Tid=" + TidCb.SelectedValue.ToString() + "";
+            string query = "select * from TicketTbl where TId=" + TidCb.SelectedValue.ToString() + "";
             SqlCommand cmd = new SqlCommand(query, Con);
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -43,20 +43,13 @@ namespace AirlineTuto
             {
                 //ambil data dari hasil query
                 FcodeTb.Text = dr["Fcode"].ToString();
-                ppass = dr["Passport"].ToString();
-                pnat = dr["PassNat"].ToString();
-
-                //data dimasukkan ke setiap bagian form
-                PNameTb.Text = pname;
-                PPassTb.Text = ppass;
-                PNatTb.Text = pnat;
             }
             Con.Close();
         }
         private void populate()
         {
             Con.Open();
-            string query = "select Fcode as [Flight Code], Fsrc as [From], Fdest as [To], Fdate as [Date], Fcap as [Total Seats] from CancelTbl";
+            string query = "select CancId as [Cancel Id], TicId as [Ticket Id], FlCode as [Flight Code], CancDate as [Date] from CancelTbl";
             SqlDataAdapter sda = new SqlDataAdapter(query, Con);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
             var ds = new DataSet();
@@ -67,17 +60,13 @@ namespace AirlineTuto
         private void label12_Click(object sender, EventArgs e)
         {
             fillTicketId();
-            populate();
+            
         }
 
         private void CancellationTbl_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void TidCb_(object sender, EventArgs e)
-        {
-
+            fillTicketId();
+            populate();
         }
 
         private void TidCb_SelectionChangeCommited(object sender, EventArgs e)
@@ -118,7 +107,7 @@ namespace AirlineTuto
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (CanId.Text == "" || FcodeTb.Text == "")
+            if (FcodeTb.Text == "")
             {
                 MessageBox.Show("Missing Information");
             }
@@ -127,7 +116,7 @@ namespace AirlineTuto
                 try
                 {
                     Con.Open();
-                    string query = "insert into CancelTbl values('" + CanId.Text + "', '" + TidCb.SelectedValue.ToString() + "', '" + FcodeTb.Text + "', '" + CancDate.Value.Date + "')";
+                    string query = "insert into CancelTbl values('" + TidCb.SelectedValue.ToString() + "', '" + FcodeTb.Text + "', '" + CancDate.Value.Date + "')";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Ticket Booked Successfully");
@@ -151,8 +140,12 @@ namespace AirlineTuto
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CanId.Text = "";
             FcodeTb.Text = "";
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 

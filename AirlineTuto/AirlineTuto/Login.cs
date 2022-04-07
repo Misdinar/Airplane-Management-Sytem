@@ -34,7 +34,7 @@ namespace AirlineTuto
             {
                 MessageBox.Show("Enter The User Id and Password");
             }
-            else if(UidTb.Test == "Admin" && PassTb.Text == "Admin")
+            else if(UidTb.Text == "Admin" && PassTb.Text == "Admin")
             {
                 Home home = new Home();
                 home.Show();
@@ -44,6 +44,11 @@ namespace AirlineTuto
             {
                 MessageBox.Show("Wrong User Name or Password");
             }
+        }
+
+        private void PassTb_OnValueChanged(object sender, EventArgs e)
+        {
+            PassTb.isPassword= true;
         }
     }
 }

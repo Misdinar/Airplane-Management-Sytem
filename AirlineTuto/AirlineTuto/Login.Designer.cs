@@ -66,7 +66,7 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(12, 293);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(152, 37);
+            this.label6.Size = new System.Drawing.Size(121, 28);
             this.label6.TabIndex = 9;
             this.label6.Text = "ITS Airline";
             // 
@@ -77,7 +77,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(12, 249);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(260, 27);
+            this.label5.Size = new System.Drawing.Size(214, 23);
             this.label5.TabIndex = 8;
             this.label5.Text = "Sky Wont Be Your Limit";
             // 
@@ -88,7 +88,7 @@
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(12, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 37);
+            this.label4.Size = new System.Drawing.Size(121, 28);
             this.label4.TabIndex = 7;
             this.label4.Text = "ITS Airline";
             // 
@@ -99,7 +99,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(444, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 44);
+            this.label1.Size = new System.Drawing.Size(152, 37);
             this.label1.TabIndex = 2;
             this.label1.Text = "ITS Airline";
             // 
@@ -110,7 +110,7 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(311, 188);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 34);
+            this.label2.Size = new System.Drawing.Size(46, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "Uid";
             // 
@@ -121,7 +121,7 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(311, 288);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(142, 34);
+            this.label3.Size = new System.Drawing.Size(114, 25);
             this.label3.TabIndex = 4;
             this.label3.Text = "Password";
             // 
@@ -194,6 +194,7 @@
             this.PassTb.Size = new System.Drawing.Size(279, 48);
             this.PassTb.TabIndex = 8;
             this.PassTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PassTb.OnValueChanged += new System.EventHandler(this.PassTb_OnValueChanged);
             // 
             // label7
             // 
@@ -202,7 +203,7 @@
             this.label7.ForeColor = System.Drawing.Color.Red;
             this.label7.Location = new System.Drawing.Point(779, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 37);
+            this.label7.Size = new System.Drawing.Size(25, 28);
             this.label7.TabIndex = 9;
             this.label7.Text = "x";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -233,6 +234,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

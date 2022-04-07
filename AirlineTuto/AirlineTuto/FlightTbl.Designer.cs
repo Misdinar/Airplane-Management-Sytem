@@ -60,7 +60,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(367, 52);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 37);
+            this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "ITS Airline";
             // 
@@ -71,7 +71,7 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(291, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(290, 37);
+            this.label2.Size = new System.Drawing.Size(233, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "Record New Flights";
             // 
@@ -101,7 +101,7 @@
             this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(16, 154);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(140, 27);
+            this.label3.Size = new System.Drawing.Size(116, 23);
             this.label3.TabIndex = 9;
             this.label3.Text = "Flight Code";
             // 
@@ -112,7 +112,7 @@
             this.label4.ForeColor = System.Drawing.Color.Navy;
             this.label4.Location = new System.Drawing.Point(16, 459);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 27);
+            this.label4.Size = new System.Drawing.Size(129, 23);
             this.label4.TabIndex = 11;
             this.label4.Text = "Num of Seats";
             // 
@@ -142,7 +142,7 @@
             this.label5.ForeColor = System.Drawing.Color.Navy;
             this.label5.Location = new System.Drawing.Point(16, 229);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 27);
+            this.label5.Size = new System.Drawing.Size(55, 23);
             this.label5.TabIndex = 12;
             this.label5.Text = "From";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,7 +154,7 @@
             this.label6.ForeColor = System.Drawing.Color.Navy;
             this.label6.Location = new System.Drawing.Point(16, 305);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 27);
+            this.label6.Size = new System.Drawing.Size(30, 23);
             this.label6.TabIndex = 13;
             this.label6.Text = "To";
             // 
@@ -179,7 +179,7 @@
             this.Fsrc.Location = new System.Drawing.Point(204, 215);
             this.Fsrc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Fsrc.Name = "Fsrc";
-            this.Fsrc.Size = new System.Drawing.Size(239, 35);
+            this.Fsrc.Size = new System.Drawing.Size(239, 29);
             this.Fsrc.TabIndex = 14;
             // 
             // Fdest
@@ -203,7 +203,7 @@
             this.Fdest.Location = new System.Drawing.Point(204, 303);
             this.Fdest.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Fdest.Name = "Fdest";
-            this.Fdest.Size = new System.Drawing.Size(239, 35);
+            this.Fdest.Size = new System.Drawing.Size(239, 29);
             this.Fdest.TabIndex = 15;
             // 
             // button2
@@ -256,7 +256,7 @@
             this.label7.ForeColor = System.Drawing.Color.Navy;
             this.label7.Location = new System.Drawing.Point(16, 391);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(161, 27);
+            this.label7.Size = new System.Drawing.Size(134, 23);
             this.label7.TabIndex = 19;
             this.label7.Text = "Take Off Date";
             // 
@@ -269,7 +269,7 @@
             this.Fdate.MaxDate = new System.DateTime(2050, 12, 31, 0, 0, 0, 0);
             this.Fdate.MinDate = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
             this.Fdate.Name = "Fdate";
-            this.Fdate.Size = new System.Drawing.Size(239, 23);
+            this.Fdate.Size = new System.Drawing.Size(239, 20);
             this.Fdate.TabIndex = 20;
             this.Fdate.Value = new System.DateTime(2022, 4, 6, 0, 0, 0, 0);
             // 
@@ -280,7 +280,7 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(893, 34);
             this.panel1.TabIndex = 44;
@@ -292,7 +292,7 @@
             this.label9.ForeColor = System.Drawing.Color.Red;
             this.label9.Location = new System.Drawing.Point(856, -4);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 37);
+            this.label9.Size = new System.Drawing.Size(25, 28);
             this.label9.TabIndex = 45;
             this.label9.Text = "x";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -304,7 +304,7 @@
             this.label8.ForeColor = System.Drawing.Color.Red;
             this.label8.Location = new System.Drawing.Point(889, -4);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 37);
+            this.label8.Size = new System.Drawing.Size(25, 28);
             this.label8.TabIndex = 41;
             this.label8.Text = "x";
             // 
@@ -364,6 +364,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FlightTbl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

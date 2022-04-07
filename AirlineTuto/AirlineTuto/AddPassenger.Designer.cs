@@ -72,7 +72,7 @@
             this.NationalityCb.Location = new System.Drawing.Point(261, 337);
             this.NationalityCb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NationalityCb.Name = "NationalityCb";
-            this.NationalityCb.Size = new System.Drawing.Size(239, 35);
+            this.NationalityCb.Size = new System.Drawing.Size(239, 29);
             this.NationalityCb.TabIndex = 26;
             // 
             // label5
@@ -82,7 +82,7 @@
             this.label5.ForeColor = System.Drawing.Color.Navy;
             this.label5.Location = new System.Drawing.Point(15, 345);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 27);
+            this.label5.Size = new System.Drawing.Size(111, 23);
             this.label5.TabIndex = 25;
             this.label5.Text = "Nationality";
             // 
@@ -93,7 +93,7 @@
             this.label4.ForeColor = System.Drawing.Color.Navy;
             this.label4.Location = new System.Drawing.Point(15, 458);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 27);
+            this.label4.Size = new System.Drawing.Size(67, 23);
             this.label4.TabIndex = 24;
             this.label4.Text = "Phone";
             // 
@@ -123,7 +123,7 @@
             this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(323, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(291, 37);
+            this.label2.Size = new System.Drawing.Size(232, 28);
             this.label2.TabIndex = 30;
             this.label2.Text = "Record Passengers";
             // 
@@ -134,7 +134,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(397, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 37);
+            this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 29;
             this.label1.Text = "ITS Airline";
             // 
@@ -145,7 +145,7 @@
             this.label6.ForeColor = System.Drawing.Color.Navy;
             this.label6.Location = new System.Drawing.Point(15, 182);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(201, 27);
+            this.label6.Size = new System.Drawing.Size(166, 23);
             this.label6.TabIndex = 32;
             this.label6.Text = "Passenger Name";
             // 
@@ -175,7 +175,7 @@
             this.label8.ForeColor = System.Drawing.Color.Navy;
             this.label8.Location = new System.Drawing.Point(15, 239);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(200, 27);
+            this.label8.Size = new System.Drawing.Size(166, 23);
             this.label8.TabIndex = 34;
             this.label8.Text = "Passport Number";
             // 
@@ -205,7 +205,7 @@
             this.label9.ForeColor = System.Drawing.Color.Navy;
             this.label9.Location = new System.Drawing.Point(15, 290);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(221, 27);
+            this.label9.Size = new System.Drawing.Size(183, 23);
             this.label9.TabIndex = 36;
             this.label9.Text = "Passenger Address";
             // 
@@ -238,7 +238,7 @@
             this.GenderCb.Location = new System.Drawing.Point(261, 394);
             this.GenderCb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.GenderCb.Name = "GenderCb";
-            this.GenderCb.Size = new System.Drawing.Size(239, 35);
+            this.GenderCb.Size = new System.Drawing.Size(239, 29);
             this.GenderCb.TabIndex = 38;
             // 
             // label10
@@ -248,7 +248,7 @@
             this.label10.ForeColor = System.Drawing.Color.Navy;
             this.label10.Location = new System.Drawing.Point(15, 400);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(97, 27);
+            this.label10.Size = new System.Drawing.Size(80, 23);
             this.label10.TabIndex = 37;
             this.label10.Text = "Gender";
             // 
@@ -291,7 +291,7 @@
             this.label7.ForeColor = System.Drawing.Color.Red;
             this.label7.Location = new System.Drawing.Point(889, -4);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 37);
+            this.label7.Size = new System.Drawing.Size(25, 28);
             this.label7.TabIndex = 41;
             this.label7.Text = "x";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -313,7 +313,7 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(931, 34);
             this.panel1.TabIndex = 43;
@@ -377,6 +377,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.PhoneTb);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "AddPassenger";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

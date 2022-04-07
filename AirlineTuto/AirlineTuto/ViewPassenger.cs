@@ -47,8 +47,8 @@ namespace AirlineTuto
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Splash spalsh = new Splash();
-            spalsh.Show();
+            AddPassenger passenger = new AddPassenger();
+            passenger.Show();
             this.Hide();
         }
 
