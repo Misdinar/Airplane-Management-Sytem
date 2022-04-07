@@ -69,7 +69,7 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.CancelDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.CancelDGV.ColumnHeadersHeight = 4;
+            this.CancelDGV.ColumnHeadersHeight = 25;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -80,13 +80,15 @@
             this.CancelDGV.DefaultCellStyle = dataGridViewCellStyle3;
             this.CancelDGV.EnableHeadersVisualStyles = false;
             this.CancelDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.CancelDGV.Location = new System.Drawing.Point(7, 393);
+            this.CancelDGV.Location = new System.Drawing.Point(5, 319);
+            this.CancelDGV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CancelDGV.Name = "CancelDGV";
+            this.CancelDGV.ReadOnly = true;
             this.CancelDGV.RowHeadersVisible = false;
             this.CancelDGV.RowHeadersWidth = 51;
             this.CancelDGV.RowTemplate.Height = 24;
             this.CancelDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.CancelDGV.Size = new System.Drawing.Size(880, 246);
+            this.CancelDGV.Size = new System.Drawing.Size(660, 200);
             this.CancelDGV.TabIndex = 91;
             this.CancelDGV.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.CancelDGV.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -101,8 +103,8 @@
             this.CancelDGV.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.CancelDGV.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.CancelDGV.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.CancelDGV.ThemeStyle.HeaderStyle.Height = 4;
-            this.CancelDGV.ThemeStyle.ReadOnly = false;
+            this.CancelDGV.ThemeStyle.HeaderStyle.Height = 25;
+            this.CancelDGV.ThemeStyle.ReadOnly = true;
             this.CancelDGV.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.CancelDGV.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.CancelDGV.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -117,7 +119,8 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Red;
-            this.label12.Location = new System.Drawing.Point(371, 362);
+            this.label12.Location = new System.Drawing.Point(266, 288);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(203, 28);
             this.label12.TabIndex = 90;
@@ -128,7 +131,8 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Navy;
-            this.label10.Location = new System.Drawing.Point(33, 207);
+            this.label10.Location = new System.Drawing.Point(25, 168);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(116, 23);
             this.label10.TabIndex = 86;
@@ -139,7 +143,8 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Navy;
-            this.label9.Location = new System.Drawing.Point(478, 211);
+            this.label9.Location = new System.Drawing.Point(358, 171);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(54, 23);
             this.label9.TabIndex = 85;
@@ -150,9 +155,10 @@
             this.TidCb.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TidCb.ForeColor = System.Drawing.Color.Red;
             this.TidCb.FormattingEnabled = true;
-            this.TidCb.Location = new System.Drawing.Point(211, 148);
+            this.TidCb.Location = new System.Drawing.Point(158, 120);
+            this.TidCb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TidCb.Name = "TidCb";
-            this.TidCb.Size = new System.Drawing.Size(221, 29);
+            this.TidCb.Size = new System.Drawing.Size(167, 29);
             this.TidCb.TabIndex = 79;
             this.TidCb.SelectionChangeCommitted += new System.EventHandler(this.TidCb_SelectionChangeCommited);
             // 
@@ -161,7 +167,8 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Navy;
-            this.label5.Location = new System.Drawing.Point(33, 154);
+            this.label5.Location = new System.Drawing.Point(25, 125);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 23);
             this.label5.TabIndex = 78;
@@ -172,7 +179,8 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(860, 0);
+            this.label7.Location = new System.Drawing.Point(645, 0);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(25, 28);
             this.label7.TabIndex = 73;
@@ -183,7 +191,8 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(360, 84);
+            this.label2.Location = new System.Drawing.Point(258, 68);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(235, 28);
             this.label2.TabIndex = 72;
@@ -194,7 +203,8 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(411, 56);
+            this.label1.Location = new System.Drawing.Point(308, 46);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 28);
             this.label1.TabIndex = 71;
@@ -207,10 +217,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(352, 287);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button3.Location = new System.Drawing.Point(264, 233);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(208, 49);
+            this.button3.Size = new System.Drawing.Size(156, 40);
             this.button3.TabIndex = 94;
             this.button3.Text = "Clear";
             this.button3.UseVisualStyleBackColor = false;
@@ -223,10 +233,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(575, 287);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(431, 233);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(208, 49);
+            this.button2.Size = new System.Drawing.Size(156, 40);
             this.button2.TabIndex = 93;
             this.button2.Text = "Back";
             this.button2.UseVisualStyleBackColor = false;
@@ -239,10 +249,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(132, 287);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(99, 233);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(208, 49);
+            this.button1.Size = new System.Drawing.Size(156, 40);
             this.button1.TabIndex = 92;
             this.button1.Text = "Cancel Ticket";
             this.button1.UseVisualStyleBackColor = false;
@@ -255,9 +265,8 @@
             this.panel1.Controls.Add(this.label7);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(894, 34);
+            this.panel1.Size = new System.Drawing.Size(670, 28);
             this.panel1.TabIndex = 95;
             // 
             // label4
@@ -265,7 +274,8 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(889, -4);
+            this.label4.Location = new System.Drawing.Point(667, -3);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(25, 28);
             this.label4.TabIndex = 41;
@@ -284,27 +294,27 @@
             this.FcodeTb.LineIdleColor = System.Drawing.Color.Red;
             this.FcodeTb.LineMouseHoverColor = System.Drawing.Color.Crimson;
             this.FcodeTb.LineThickness = 4;
-            this.FcodeTb.Location = new System.Drawing.Point(211, 195);
-            this.FcodeTb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.FcodeTb.Location = new System.Drawing.Point(158, 158);
+            this.FcodeTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FcodeTb.Name = "FcodeTb";
-            this.FcodeTb.Size = new System.Drawing.Size(221, 39);
+            this.FcodeTb.Size = new System.Drawing.Size(166, 32);
             this.FcodeTb.TabIndex = 96;
             this.FcodeTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // CancDate
             // 
             this.CancDate.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CancDate.Location = new System.Drawing.Point(603, 213);
-            this.CancDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CancDate.Location = new System.Drawing.Point(452, 173);
+            this.CancDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.CancDate.Name = "CancDate";
-            this.CancDate.Size = new System.Drawing.Size(221, 20);
+            this.CancDate.Size = new System.Drawing.Size(167, 20);
             this.CancDate.TabIndex = 97;
             // 
             // CancellationTbl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(894, 644);
+            this.ClientSize = new System.Drawing.Size(670, 523);
             this.Controls.Add(this.CancDate);
             this.Controls.Add(this.FcodeTb);
             this.Controls.Add(this.panel1);
@@ -321,6 +331,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "CancellationTbl";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CancellationTbl";
