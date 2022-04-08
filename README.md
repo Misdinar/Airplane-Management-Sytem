@@ -1,5 +1,6 @@
 # Airplane-Management-Sytem
 Just a simple Airplane Management Sytem made with Windows Form App in Visual Studio
+The implementation uses the Windows Forms App with additional packages such as Guna UI and Bunifu UI
 
 Feature:
 - Record & View Flight
