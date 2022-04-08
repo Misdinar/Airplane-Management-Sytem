@@ -1,6 +1,13 @@
 # Airplane-Management-Sytem
 Just a simple Airplane Management Sytem made with Windows Form App in Visual Studio
 
+Feature:
+- Record & View Flight
+- Record & View Passenger
+- Booking Ticket
+- Canceling Ticket
+
+
 ### Loading Screen
 ![Loading Screen](https://github.com/Misdinar/Airplane-Management-Sytem/blob/main/img/loading.PNG?raw=true)
 
